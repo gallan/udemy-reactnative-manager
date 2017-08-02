@@ -10,6 +10,7 @@ class App extends Component {
   //We can make firebase load in the same file if we like:
   componentWillMount(){
     // Initialize Firebase
+    // should probably have this elsewhere and gitignore :)
     const config = {
       apiKey: 'AIzaSyA_oSgJdUhViC-iMcRPg60yhPetGG-Mqt0',
       authDomain: 'udemy-managers.firebaseapp.com',
